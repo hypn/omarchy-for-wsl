@@ -16,4 +16,5 @@ echo
 echo "WSL should be setup for Omarchy, please run:"
 echo "	wget -qO- https://raw.githubusercontent.com/hypn/omarchy-for-wsl/refs/heads/master/boot.sh | bash"
 echo
-su - user
+sudo -u user bash
+
